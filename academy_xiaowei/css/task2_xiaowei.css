@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/*小薇学院任务二*/
+*{margin:0;padding:0;}
+body {
+	background-color: #dedede;
+	font-size: 14px;
+	line-height: 2;
+	font-family: Helvetica,'Microsoft Yahei',STHeiti,Arial,sans-serif;
+	width:100%;
+}
+header {
+	width:100%;
+	background-color:#333;
+}
+header h1 {
+	font-size: 0
+}
+header div {
+	width:1240px;
+	margin:0 auto;
+	background: url(../images/baidu_logo.png) 20px 11px no-repeat;
+	height:60px;
+}
+header ul {
+	float:right;
+	height:60px;
+}
+header ul li {
+	float:left;
+	font-size: 12px;
+	line-height: 60px;
+	width:80px;
+	list-style: none;
+	text-align: right;
+	position:relative;
+}
+header ul li:before {
+	content:'';
+	position:absolute;
+	display: inline-block;
+	top:27px;
+	left:8px;
+	width:6px;
+	height:6px;
+	border-radius: 3px;
+	background-color:#000;
+}
+header ul li a {
+	color:#fff;
+	text-decoration: none;
+	position:relative;
+}
+header ul li:last-child a {
+	color:#ccc;
+}
+header ul li a:hover {
+	color:#ccc;
+}
+article,section,aside {
+	width:1200px;
+	margin:20px auto;
+	background-color:#fff;
+	border:1px solid #d1d1d1;
+	box-shadow: 2px 2px 2px #909090;
+	padding:20px;
+}
+h2:first-child {
+	font-size:22px;
+}
+h2:nth-child(2) {
+	font-size: 18px;
+	color:#666;
+
+}
+article span,section span {
+	font-size: 12px;
+	color:#666;
+}
+p:first-of-type {
+	text-indent: 0;
+	margin:0;
+}
+article p,section p {
+	text-indent: 2em;
+	margin:5px 0;
+}
+article ul {
+	list-style: none;
+	margin-left:20px;
+}
+dl {
+	margin:20px 0 0 40px;
+	border:1px solid #ccc;
+	padding:5px 10px;
+	width:100px;
+	text-align: center
+}
+dd {
+	font-size: 12px
+}
+dl img {
+	width:100px;
+	height:80px;
+	border:none;
+	text-decoration: none;
+}
+section ol {
+	margin: 10px 0 10px 40px;
+}
+table {
+	width:100%;
+	text-align: left
+}
+thead {
+	background-color:#333;
+	color:#fff;
+}
+th,td {
+	font-size:12px;
+	padding-left: 5px;
+	border-top:1px solid #dedede;
+	border-left:1px solid #dedede;
+}
+tr td:last-child {
+	border-right:1px solid #dedede;
+}
+tfoot {
+	background-color:#dedede;
+	font-weight: bolder;
+}
+aside h2:first-child {
+	font-size:18px;
+	padding-left: 10px;
+	border-left:4px solid #ccc;
+}
+aside h2:nth-child(2) {
+	display:none;
+}
+form {
+	margin:10px auto;
+	font-size: 12px
+}
+label {
+	display:inline-block;
+	width:29%;
+	margin-right: 1%;
+	text-align: right;
+}
+form p:first-of-type {
+	padding-left: 30%;
+	color:#999;
+	margin-bottom: 15px
+}
+form p:nth-of-type(2) {
+	clear:left;
+	padding-left: 30%;
+	color:#999;
+	margin-bottom: 10px
+}
+input::-webkit-input-placeholder{color:#333;}
+input::-ms-input-placeholder{color:#333;}
+input::-moz-placeholder{color:#333;}
+label[for=pwd]{float:left;margin-bottom: 5px}
+input[name=pwd]{float:left;}
+label[for=pwd2]{clear:left;float:left;}
+input[name=pwd2]{float:left;}
+label[for=gender]{clear:left;float:left;margin-bottom: 5px}
+input[type=radio] {margin-right: 3px;float:left;position:relative;top:5px;}
+form span {margin-right: 10px;float:left;}
+label[for=city]{clear:left;float:left;margin-bottom: 5px}
+select{float:left;position:relative;top:2px;}
+label[for=hobby]{clear:left;float:left;margin-bottom: 5px}
+input[type=checkbox]{float:left;margin-right: 3px;position:relative;top:6px;}
+label[for=description]{clear:left;float:left;}
+textarea{float:left;width:60%;height:100px;font-size: 14px}
+form input[type=submit]{
+	clear:left;
+	width:100%;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	background-color:#3355d0;
+	font-size: 16px;
+	height:40px;
+	border:none;
+	border-radius: 10px;
+	color:#fff;
+}
+footer{
+	background-color:#000;
+	width:100%;
+	height:70px;
+	text-align: center;
+	line-height: 70px;
+	color:#fff;
+	font-size: 12px
+}
+
+
+
+
